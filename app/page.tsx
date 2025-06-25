@@ -63,14 +63,14 @@ export default function PsicologoLanding() {
                   alt="Logo Leandro Nonato Ramalho"
                   width={160}
                   height={120}
-                  className="w-40 md:w-36 lg:w-48 h-auto max-w-full object-contain bg-transparent"
+                  className="w-52 md:w-36 lg:w-48 h-auto max-w-full object-contain bg-transparent"
                   priority
                 />
               </div>
-              <Button asChild className="bg-accent hover:bg-accent-600 text-white font-bold md:hidden">
+              <Button asChild className="bg-whatsapp hover:bg-whatsapp-600 text-white font-bold px-2 py-1 text-xs md:px-6 md:py-3 md:text-base md:hidden">
                 <Link href="https://wa.me/5567992619987" target="_blank">
-                   <MessageCircle className="w-5 h-5 mr-2" />
-                  AGENDE SUA CONSULTA
+                   <MessageCircle className="w-4 h-4 mr-1" />
+                  AGENDAR CONSULTA
                 </Link>
               </Button>
             </div>
@@ -91,7 +91,7 @@ export default function PsicologoLanding() {
                 FAQ
               </Link>
             </nav>
-            <Button asChild className="bg-accent hover:bg-accent-600 text-white font-bold hidden md:flex">
+            <Button asChild className="bg-whatsapp hover:bg-whatsapp-600 text-white font-bold hidden md:flex">
               <Link href="https://wa.me/5567992619987" target="_blank">
               <MessageCircle className="w-5 h-5 mr-2" />
                 AGENDE SUA CONSULTA
@@ -102,7 +102,7 @@ export default function PsicologoLanding() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-[#5FA6DA]/20 via-transparent to-[#3A71A3]/15">
+      <section className="py-10 md:py-20 px-4 bg-gradient-to-r from-[#5FA6DA]/20 via-transparent to-[#3A71A3]/15">
         <div className="container mx-auto max-w-8xl">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -113,18 +113,16 @@ export default function PsicologoLanding() {
                   Psicólogo
                   <span className="text-primary"> Leandro Nonato Ramalho</span>
                 </h1>
-                 <p className="text-lg text-primary">
-                  Atendimento presencial em Campo Grande - MS e online para todo o Brasil.
-                </p>
+                 <p className="text-lg text-primary"><strong>Atendimento Presencial em Campo Grande MS - ONLINE para todo Brasil.</strong></p>
                 
-                <p className="text-xl text-dark-600 leading-relaxed">
+               {/* <p className="text-xl text-dark-600 leading-relaxed">
                   Se você busca um espaço onde possa se sentir à vontade para ser quem você é, sem julgamentos, e
                   encontrar um caminho para lidar com suas questões, seja bem-vindo.
-                </p>
+                </p> */}
                
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="bg-accent hover:bg-accent-600 text-white font-bold">
+                <Button asChild size="lg" className="bg-whatsapp hover:bg-whatsapp-600 text-white font-bold">
                   <Link href="https://wa.me/5567992619987" target="_blank">
                     <MessageCircle className="w-5 h-5 mr-2" />
                     AGENDE SUA CONSULTA
@@ -142,8 +140,8 @@ export default function PsicologoLanding() {
                   <div className="text-sm text-primary">Anos de Terapia Pessoal</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-dark">100%</div>
-                  <div className="text-sm text-primary">Dedicação</div>
+                  <div className="text-2xl font-bold text-dark">+12.000 Horas</div>
+                  <div className="text-sm text-primary">de Atendimentos Realizados</div>
                 </div>
               </div>
             </div>
@@ -258,7 +256,7 @@ export default function PsicologoLanding() {
               <strong>Atendimento Flexível:</strong> Consultas presenciais em Campo Grande - MS e online para qualquer
               lugar do Brasil.
             </p>
-            <Button asChild size="lg" className="bg-accent hover:bg-accent-600 text-white font-bold">
+            <Button asChild size="lg" className="bg-whatsapp hover:bg-whatsapp-600 text-white font-bold">
               <Link href="https://wa.me/5567992619987" target="_blank">
                 <MessageCircle className="w-5 h-5 mr-2" />
                 AGENDE SUA CONSULTA
@@ -375,7 +373,7 @@ export default function PsicologoLanding() {
           <DepoimentosCarousel />
 
           <div className="text-center mt-8">
-            <Button asChild size="lg" className="bg-accent hover:bg-accent-600 text-white font-bold">
+            <Button asChild size="lg" className="bg-whatsapp hover:bg-whatsapp-600 text-white font-bold">
               <Link href="https://wa.me/5567992619987" target="_blank">
                 <MessageCircle className="w-5 h-5 mr-2" />
                 AGENDE SUA CONSULTA
@@ -428,7 +426,7 @@ export default function PsicologoLanding() {
                 a encontrar suas próprias respostas, entre em contato.
               </p>
              
-              <Button asChild size="lg" className="bg-accent hover:bg-accent-600 text-white font-bold">
+              <Button asChild size="lg" className="bg-whatsapp hover:bg-whatsapp-600 text-white font-bold">
                 <Link href="https://wa.me/5567992619987" target="_blank">
                   <MessageCircle className="w-5 h-5 mr-2" />
                   AGENDE SUA CONSULTA
@@ -477,7 +475,7 @@ export default function PsicologoLanding() {
                 Quais são as formas de pagamento?
               </AccordionTrigger>
               <AccordionContent className="text-dark-600 text-base leading-relaxed">
-                Aceito diversas formas de pagamento, incluindo PIX, transferência bancária e cartão de crédito. Os detalhes
+                Aceito diversas formas de pagamento, incluindo PIX, transferência bancária e boleto. Os detalhes
                 são combinados individualmente para maior comodidade.
               </AccordionContent>
             </AccordionItem>
@@ -504,7 +502,7 @@ export default function PsicologoLanding() {
             </AccordionItem>
           </Accordion>
           <div className="text-center mt-8">
-            <Button asChild size="lg" className="bg-accent hover:bg-accent-600 text-white font-bold">
+            <Button asChild size="lg" className="bg-whatsapp hover:bg-whatsapp-600 text-white font-bold">
               <Link href="https://wa.me/5567992619987" target="_blank">
                 <MessageCircle className="w-5 h-5 mr-2" />
                 AGENDE SUA CONSULTA
@@ -538,15 +536,13 @@ export default function PsicologoLanding() {
         <div className="container mx-auto max-w-8xl">
           <div className="grid md:grid-cols-4 gap-8 mx-auto">
             <div className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                  <Brain className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold">Leandro Nonato Ramalho</h3>
-                  <p className="text-white">Psicólogo - CRP 14/07892-7</p>
-                </div>
-              </div>
+              <Image
+                src="/logoleandro.png"
+                alt="Logo Leandro Nonato Ramalho"
+                width={160}
+                height={120}
+                className="w-52 md:w-36 lg:w-48 h-auto max-w-full object-contain bg-transparent"
+              />
               <p className="text-white">Cuidando da sua saúde mental com profissionalismo e humanização.</p>
             </div>
             <div>
@@ -558,7 +554,7 @@ export default function PsicologoLanding() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-4 h-4 text-primary" />
-                  <span className="text-white">contato@leandrononato.psi.br</span>
+                  <span className="text-white">Nonatoleandro01@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-9 h-9 text-primary" />
